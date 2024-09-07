@@ -935,7 +935,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * skillbars - (_skillbars.scss)
  * -------------------------------------------------------------------
  */
-.skill-bars {
+ .skill-bars {
     list-style: none;
     margin: 6rem 0 3rem;
 }
@@ -972,22 +972,20 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .progress span {
     position: absolute;
     right: 0;
-    top: -1.8rem; /* Position percentage just above the progress bar */
+    top: -2.5rem; /* Position percentage above the progress bar */
     display: block;
     font-family: "poppins-regular", sans-serif;
-    color: white;
+    color: #313131;
     font-size: 1.1rem;
     line-height: 1;
-    background: #313131;
     padding: .3rem .6rem;
-    border-radius: 5px;
-    z-index: 2; /* Ensure the label is above the bar */
+    z-index: 2;
 }
 
-/* Progress bar colors based on the percentage */
-.skill-bars li .percent95 { width: 95%; background-color: #4CAF50; } /* Green */
-.skill-bars li .percent90 { width: 90%; background-color: #2196F3; } /* Blue */
-.skill-bars li .percent85 { width: 85%; background-color: #FF9800; } /* Orange */
+/* Progress bar colors */
+.skill-bars li .percent95 { width: 85%; background-color: #4CAF50; } /* Green */
+.skill-bars li .percent90 { width: 80%; background-color: #2196F3; } /* Blue */
+.skill-bars li .percent85 { width: 75%; background-color: #FF9800; } /* Orange */
 .skill-bars li .percent75 { width: 75%; background-color: #FF5722; } /* Red */
 .skill-bars li .percent70 { width: 70%; background-color: #607D8B; } /* Blue Grey */
 .skill-bars li .percent80 { width: 80%; background-color: #9C27B0; } /* Purple */

@@ -156,7 +156,7 @@
 
 			<ul class="skill-bars">
 				<li>
-					<strong>Python | Pandas | Numpy | scikit learn</strong>
+					<strong>Python | TensorFlow | Keras | Scikit Learn</strong>
 					<div class="progress percent95"><span data-label="85%">85%</span></div>
 				</li>
 				<li>
@@ -172,7 +172,7 @@
 					<div class="progress percent75"><span data-label="75%">75%</span></div>
 				</li>
 				<li>
-					<strong>Neural Netword | Deep Learning</strong>
+					<strong>Neural Network | Deep Learning</strong>
 					<div class="progress percent75"><span data-label="70%">70%</span></div>
 				</li>
 				<li>
@@ -188,6 +188,7 @@
 					<div class="progress percent85"><span data-label="85%">85%</span></div>
 				</li>
 			</ul>
+			
 			
 			
 			 <!-- /skill-bars -->		
@@ -612,34 +613,34 @@
    		<div class="col-twelve">
             
 <!-- form -->
-<form name="form" id="contactForm" method="POST" action="https://formspree.io/f/xwkgrlvk">
-      			<fieldset>
-                    <div class="form-field">
- 				<input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                    </div>
-                    <div class="form-field">
-				<input name="_replyto" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	                </div>
-                    <div class="form-field">
-				<input name="_subject" type="text" id="contactSubject" placeholder="Subject" value="">
-	                </div>                       
-                    <div class="form-field">
-	                 	<textarea name="message" id="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
-	                </div>                      
-                    <div class="form-field">
-                        <button class="submitform" name="submit">Submit</button>
-                        <div id="submit-loader">
-			    <div class="text-loader">Sending...</div>                             
-       				  <div class="s-loader">
-					<div class="bounce1"></div>
-					<div class="bounce2"></div>
-					<div class="bounce3"></div>
-				    </div>
-			</div>
-                    </div>
-
-	</fieldset>
+<form name="form" id="contactForm" method="POST" action="send_mail.php">
+    <fieldset>
+        <div class="form-field">
+            <input name="name" type="text" id="contactName" placeholder="Name" minlength="2" required="">
+        </div>
+        <div class="form-field">
+            <input name="email" type="email" id="contactEmail" placeholder="Email" required="">
+        </div>
+        <div class="form-field">
+            <input name="subject" type="text" id="contactSubject" placeholder="Subject">
+        </div>                       
+        <div class="form-field">
+            <textarea name="message" id="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
+        </div>                      
+        <div class="form-field">
+            <button class="submitform" name="submit">Submit</button>
+            <div id="submit-loader">
+                <div class="text-loader">Sending...</div>                             
+                <div class="s-loader">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
 </form>
+
 
             <!-- contact-warning -->
 <div id="message-warning">            	
